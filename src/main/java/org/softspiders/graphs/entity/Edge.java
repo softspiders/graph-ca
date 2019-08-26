@@ -1,7 +1,5 @@
 package org.softspiders.graphs.entity;
 
-import java.util.UUID;
-
 public class Edge {
 	public Node node1;
 	public Node node2;

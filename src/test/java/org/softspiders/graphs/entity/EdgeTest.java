@@ -9,32 +9,28 @@ import static org.junit.Assert.*;
 public class EdgeTest {
 
 	@Test
-	public void createByIdsOfTwoNodes() {
-		new Edge(UUID.randomUUID(), UUID.randomUUID());
+	public void createByBothNodes() {
+		new Edge(new Node(), new Node());
 	}
 
 	@Test
-	public void creationByIdShouldSetFirstNodeId() {
-		assertNotNull(new Edge(UUID.randomUUID(), UUID.randomUUID()).nodeId1);
-	}
-
-	@Test
-	public void creationByIdShouldSetSecondNodeId() {
-		assertNotNull(new Edge(UUID.randomUUID(), UUID.randomUUID()).nodeId2);
+	public void creationByBothNodesShouldSetBothIds() {
+		assertNotNull(new Edge(new Node(), new Node()).node1);
+		assertNotNull(new Edge(new Node(), new Node()).node2);
 	}
 
 	@Test(expected = NullPointerException.class /* no exception expected */)
-	public void creationWithFirstIdNullIdShouldThrowNPE() {
-		new Edge(null, UUID.randomUUID());
+	public void creationWithFirstNodeNullShouldThrowNPE() {
+		new Edge(null, new Node());
 	}
 
 	@Test(expected = NullPointerException.class /* no exception expected */)
-	public void creationWithSecondIdNullIdShouldThrowNPE() {
-		new Edge(UUID.randomUUID(), null);
+	public void creationWithSecondNodeNullIdShouldThrowNPE() {
+		new Edge(new Node(), null);
 	}
 
 	@Test(expected = NullPointerException.class /* no exception expected */)
-	public void creationWithBothIdsNullIdShouldThrowNPE() {
+	public void creationWithBothNodesNullIdShouldThrowNPE() {
 		new Edge(null, null);
 	}
 }

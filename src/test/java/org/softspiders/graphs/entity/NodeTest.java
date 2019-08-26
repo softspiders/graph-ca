@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class GraphTest {
+public class NodeTest {
 
 	@Test
 	public void createByDefault() {

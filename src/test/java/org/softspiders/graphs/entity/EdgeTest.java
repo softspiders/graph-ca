@@ -14,7 +14,7 @@ public class EdgeTest {
 	}
 
 	@Test
-	public void creationByBothNodesShouldSetBothIds() {
+	public void creationByBothNodesShouldSetBothNodes() {
 		assertNotNull(new Edge(new Node(), new Node()).node1);
 		assertNotNull(new Edge(new Node(), new Node()).node2);
 	}

@@ -6,14 +6,6 @@ The simplest example of Clean Architecture on Graphs
 
 [JDK](https://java.com/ru/download/) >= 1.5
 
-## Direct feature ancestors
-
-[graph](https://github.com/softspider/graph)
-
-## Direct code ancestors
-
-[graph](https://github.com/softspider/graph)
-
 ## Test run
 
 ```sh

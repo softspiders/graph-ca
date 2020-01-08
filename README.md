@@ -2,6 +2,16 @@
 
 The simplest example of Clean Architecture on Graphs
 
+UNDER CONSTRUCTION
+
+## Feature tags
+
+- ca
+- graph
+- java
+- maven
+- under-construction
+
 ## Requirements
 
 [JDK](https://java.com/ru/download/) >= 1.5

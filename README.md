@@ -1,4 +1,5 @@
-SOFTSPIDERS
+[SOFTSPIDERS](https://github.com/softspiders/softspiders)
+
 # graph-ca
 
 The simplest example of Clean Architecture on Graphs
@@ -11,6 +12,8 @@ UNDER CONSTRUCTION
 - graph
 - java
 - maven
+- starter
+- template
 - under-construction
 
 ## Requirements
